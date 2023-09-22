@@ -1,0 +1,33 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+
+}
+
+/* .section:not(.active) {
+  display: none;
+}
+
+.pagination-button {
+  padding: 0.5rem 1rem;
+  background-color: #ccc;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.pagination-button.active {
+  background-color: #333;
+  color: #fff;
+} */
+
+@layer base {
+  body {
+    @apply  dark:bg-black ;
+  }
+
+}
